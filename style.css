@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+
+}
+
+.background-img {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.maps-ancients {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.ancient-card { 
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 260px;
+    width: 200px;
+    margin: 20px;
+}
+.ancient-card.active {
+    border: 2px solid red;
+}
+
+.difficulty-btn-section {
+    flex-direction: column;
+    gap: 50px;
+    height: 100vh;
+    justify-content: center;
+    display: none;
+}
+
+.difficulty-btn-section--activ {
+    display: flex;
+}
+
+.dif-btn {
+    border: 2px solid rgb(186, 9, 9);
+    box-sizing: border-box;
+    color: rgb(237, 237, 237);
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+}
+
+.dif-btn.active {
+    background-color: orangered;
+}
+
+.btn-random {
+    border: 2px solid rgb(186, 9, 9);
+    color: rgb(237, 237, 237);
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+
+.btn-random--active {
+    display: block;
+    
+}
+.btn-random:hover{
+    background-color: orangered;
+}
+
+
+.interactive-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    min-width: 30%;
+
+}
+
+.round-section {
+    flex-direction: column;
+    gap: 10px;
+    min-height: 30%;
+    display: none;
+}
+
+.round-section--active {
+    display: flex;
+}
+
+.stage {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.span-text {
+    color: rgba(226, 13, 13, 0.7);
+}
+
+.span-text--active {
+    color: red;
+}
+
+.dots-section {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.dot-gr {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    font-size: 24px;
+    color: white;
+    background-color:green;
+}
+
+.dot-red {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    font-size: 24px;
+    color: white;
+    background-color:rgb(200, 16, 16);
+}
+
+.dot-blue {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    font-size: 24px;
+    color: white;
+    background-color:rgb(34, 56, 222);
+}
+.CardBackground {
+    background-size: cover;
+    height: 190px;
+    width: 130px;
+    display: none;
+}
+
+.CardBackground--active {
+    display: block;
+}
+
+.last-card {
+    background-size: cover;
+    height: 190px;
+    width: 130px;
+    display: none;
+}
+
+.last-card--active {
+    display: block;
+}
